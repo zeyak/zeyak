@@ -52,9 +52,19 @@ Glycomics         ▓▓▓▓▓░░░░░
 &nbsp;
 [![CompareDiplo](https://github-readme-stats.vercel.app/api/pin/?username=zeyak&repo=CompareDiplo&theme=graywhite&hide_border=true&title_color=333333&text_color=555555&icon_color=333333)](https://github.com/zeyak/CompareDiplo)
 
+<sub>**GenoDiplo** — Snakemake pipeline for diplomonad genome assembly & annotation · Nanopore assembly, gene prediction, functional annotation, repeat masking · reproducible across genome projects</sub>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<sub>**CompareDiplo** — Comparative genomics pipeline for diplomonads · OrthoFinder, InterProScan, EggNOG-mapper · evolutionary divergence between free-living & parasitic species · manuscript in preparation</sub>
+
+&nbsp;
+
 [![Deep-Bio](https://github-readme-stats.vercel.app/api/pin/?username=zeyak&repo=Deep-Bio&theme=graywhite&hide_border=true&title_color=333333&text_color=555555&icon_color=333333)](https://github.com/zeyak/Deep-Bio)
 &nbsp;
 [![Bioinformatics-Bootcamp](https://github-readme-stats.vercel.app/api/pin/?username=zeyak&repo=Bioinformatics-Bootcamp&theme=graywhite&hide_border=true&title_color=333333&text_color=555555&icon_color=333333)](https://github.com/zeyak/Bioinformatics-Bootcamp)
+
+<sub>**Deep-Bio** — Deep learning on 4 biological datasets · FFNN & LSTM · anuran acoustics, thyroid diagnostics, protein localization, HIV cleavage site prediction · 78%→95% accuracy</sub>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<sub>**Bioinformatics-Bootcamp** — Teaching materials from the Miuul Bioinformatics Bootcamp · Python, Linux, Snakemake, NGS, comparative genomics, functional annotation · 2 cohorts · 50+ graduates</sub>
 
 </div>
 
