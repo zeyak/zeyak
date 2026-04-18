@@ -1,175 +1,181 @@
 <div align="center">
 
-# Hi, I'm Zeynep 👋
+# ZEYNEP AKDENIZ · PhD
 
-### Computational Biologist · Postdoctoral Researcher
+**Senior Bioinformatician · Pharma & Drug Discovery**
 
-*From deep learning on clinical data to diplomonad genomes —  
-building reproducible, multi-omics pipelines across the tree of life*
+AI / ML &nbsp;·&nbsp; Multi-Omics &nbsp;·&nbsp; NGS &nbsp;·&nbsp; Pipeline Engineering &nbsp;·&nbsp; HPC · Reproducible Research
 
-[![Email](https://img.shields.io/badge/zeynep.hitay.akdeniz%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:zeynep.hitay.akdeniz@gmail.com)
-[![GitHub](https://img.shields.io/badge/github.com/zeyak-181717?style=flat&logo=github)](https://github.com/zeyak)
+<br>
+
+![](https://img.shields.io/badge/9_years_experience-111111?style=flat-square)
+![](https://img.shields.io/badge/4_production_pipelines-111111?style=flat-square)
+![](https://img.shields.io/badge/3_Nature--family_papers-cc0000?style=flat-square)
+![](https://img.shields.io/badge/3_de_novo_genomes-111111?style=flat-square)
+![](https://img.shields.io/badge/1k+_students_reached-111111?style=flat-square)
+
+[![Email](https://img.shields.io/badge/zeynep.hitay.akdeniz%40gmail.com-111111?style=flat-square&logo=gmail&logoColor=white)](mailto:zeynep.hitay.akdeniz@gmail.com)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/github.com/zeyak-111111?style=flat-square&logo=github&logoColor=white)](https://github.com/zeyak)
+&nbsp;
+[![Location](https://img.shields.io/badge/Gothenburg,_Sweden-111111?style=flat-square)](https://github.com/zeyak)
 
 </div>
 
 ---
 
-## About Me
-
-I am a postdoctoral researcher in computational biology, with a background spanning deep learning applications on clinical and omics data (M.Phil., Kadir Has University), eukaryotic genome assembly and annotation, comparative diplomonad genomics, and glycomics. I design end-to-end bioinformatics pipelines — from raw Nanopore/Illumina/PacBio reads to genome-scale biological interpretation — and I teach these methods through structured bootcamps.
+9 years building reproducible pipelines across Multi-Omics, NGS, and AI/ML. From HPC clusters to one-line Snakemake deploys: 4 production pipelines, 3 Nature-family papers, 3 de novo genomes assembled. Reproducible research is the difference between a result and knowledge.
 
 ---
 
-## Research Landscape
+## Publications
 
-```mermaid
-pie title Research & Data Experience
-    "Genomics — assembly, annotation, comparative" : 30
-    "Deep Learning on Omics & Diagnostics" : 20
-    "Transcriptomics — RNA-seq" : 15
-    "Proteomics & Functional Annotation" : 15
-    "Glycomics & Glycan Evolution" : 12
-    "Clinical Diagnostics & Phylogeny" : 8
-```
+| Date | Journal | Title | Authors |
+|---|---|---|---|
+| Dec 2025 | **Nature Communications** | GlyContact analyzes glycan 3D structures at scale | Thomès · Joeres · Akdeniz · Bojar |
+| Aug 2024 | **Scientific Data** | Expanded genome of *Hexamita inflata*, a free-living diplomonad | Akdeniz et al. |
+| Sep 2022 | **Scientific Data** | Chromosome-scale reference genome — *Spironucleus salmonicida* | Xu · Jiménez-González · Akdeniz et al. |
 
 ---
 
-## Research Timeline
+## Projects
 
-```mermaid
-timeline
-    title Career & Project Arc
-    2018 : M.Phil Thesis — Deep-Bio
-         : Deep learning (Softmax · FFNN · LSTM) on clinical & biological datasets
-         : Kadir Has University · Computational Biology & Bioinformatics
-    PhD / Postdoc : GenoDiplo
-                  : Nanopore genome assembly & annotation of Spironucleus barkhanus
-                  : CompareDiplo
-                  : Comparative genomics across free-living & parasitic diplomonads
-    2024 : Bioinformatics Bootcamp
-         : Designed & delivered Miuul Bioinformatics Bootcamp 2024
-    Ongoing : G-evoL · GlyContact Analyses
-            : Glycan evolution & contact network analyses
-```
+### [GenoDiplo](https://github.com/zeyak/GenoDiplo)
 
----
-
-## Featured Projects
-
-### 🧠 [Deep-Bio](https://github.com/zeyak/Deep-Bio)
-> **M.Phil Thesis** · Deep Learning Applications on Omics Data and Diagnostics · Kadir Has University, 2018
-
-Applied Softmax Regression, Feed Forward Neural Networks (FFNN), and LSTM to four biological and clinical datasets, demonstrating systematic accuracy gains as model complexity increases.
-
-**Datasets & Results**
-
-| Dataset | Task | Classes | Softmax | FFNN |
-|---|---|---|---|---|
-| Anuran Call (frog species) | Multiclass classification | 15 | 78% | **95%** |
-| Thyroid Patients | Diagnosis classification | 3 | ✓ | — |
-| E. coli Protein Localization | Subcellular site prediction | 8 | ✓ | — |
-| HIV Cleavage Sites | Binary classification | 2 | 81% | **improved with LSTM** |
-
-**Key notebooks:** Softmax → Keras + optimizer comparison (ADAM/SGD/RMSprop) → bias-variance tradeoff → FFNN regularization (L2, Dropout) → LSTM
-
-`Python` `TensorFlow` `Keras` `Scikit-learn` `FFNN` `LSTM` `Clinical Data` `Omics`
-
----
-
-### 🧬 [GenoDiplo](https://github.com/zeyak/GenoDiplo)
-> Reproducible Snakemake pipeline for diplomonad genome assembly & annotation
-
-End-to-end workflow for eukaryotic microbial genomes, applied to *Spironucleus barkhanus*. Covers raw read QC through structural and functional annotation to comparative genomics.
-
-**Pipeline stages**
+Snakemake pipeline for de novo genome assembly and annotation of diplomonad eukaryotes. Applied to *Spironucleus barkhanus*; underpins the *Hexamita inflata* Scientific Data 2024 paper. Covers raw read QC through structural and functional annotation to comparative genomics.
 
 | Stage | Tools |
 |---|---|
 | Quality Control | FastQC · MultiQC · Trimmomatic |
 | Assembly | Flye (Nanopore long reads) |
-| Assembly Evaluation | QUAST · Meryl · Winnowmap · DeepTools |
+| Evaluation | QUAST · Meryl · Winnowmap · DeepTools |
 | Structural Annotation | Prodigal · GlimmerHMM |
 | Functional Annotation | DIAMOND BLASTp · eggNOG-mapper · InterProScan |
 | Repeat & ncRNA | RepeatModeler · RepeatMasker · tRNAscan-SE · Barrnap |
 | Comparative Genomics | CD-HIT · OrthoFinder |
 
-`Snakemake` `Python` `Nanopore` `Conda` `Genome Assembly` `Functional Annotation`
+![](https://img.shields.io/badge/Snakemake-111111?style=flat-square)
+![](https://img.shields.io/badge/Python-111111?style=flat-square)
+![](https://img.shields.io/badge/Nanopore-111111?style=flat-square)
+![](https://img.shields.io/badge/Conda-111111?style=flat-square)
+![](https://img.shields.io/badge/Sci._Data_2024-cc0000?style=flat-square)
 
 ---
 
-### 🔬 [CompareDiplo](https://github.com/zeyak/CompareDiplo)
-> Comparative genomics pipeline for free-living vs. parasitic diplomonads
+### [CompareDiplo](https://github.com/zeyak/CompareDiplo)
 
-Extends GenoDiplo into multi-species comparative analysis. Clusters protein families, maps InterPro/PFAM/KEGG domains, and uses OrthoFinder to trace evolutionary trajectories across diplomonad lineages.
+Comparative genomics pipeline extending GenoDiplo across diplomonad species (free-living vs. parasitic). Clusters protein families by OrthoFinder, maps InterPro/PFAM/KEGG domains, and traces evolutionary trajectories. Revealed protein family expansions correlated with lifestyle adaptation in anaerobic environments.
 
-**What it revealed:**
-- Expanded protein families correlated with lifestyle adaptations in anaerobic environments
-- New insights into protein family complexity in *H. inflata*
-- Evolutionary divergence patterns between free-living and parasitic species
-
-**Core tools:** OrthoFinder · InterProScan · eggNOG-mapper · PFAM/Superfamily domain analysis
-
-`Python` `Snakemake` `Comparative Genomics` `OrthoFinder` `InterProScan` `Diplomonads`
+![](https://img.shields.io/badge/OrthoFinder-111111?style=flat-square)
+![](https://img.shields.io/badge/InterProScan-111111?style=flat-square)
+![](https://img.shields.io/badge/eggNOG--mapper-111111?style=flat-square)
+![](https://img.shields.io/badge/Comparative_Genomics-111111?style=flat-square)
 
 ---
 
-### 📚 [Bioinformatics-Bootcamp](https://github.com/zeyak/Bioinformatics-Bootcamp)
-> Miuul Bioinformatics Bootcamp 2024 — teaching materials & practicals
+### [Deep-Bio](https://github.com/zeyak/Deep-Bio)
 
-Designed and delivered a structured bootcamp covering the full bioinformatics stack. Topics span tool setup, programming, workflow management, and multi-omics analysis.
+M.Sc. thesis (Kadir Has University, 2016–2018). Applies Softmax Regression, FFNN, and LSTM to four biological and clinical datasets, benchmarking model complexity against classification accuracy.
 
-**Curriculum**
+| Dataset | Task | Softmax | FFNN |
+|---|---|---|---|
+| Anuran Call (15 frog species) | Multiclass classification | 78% | **95%** |
+| Thyroid Patients (72k records) | Diagnostic classification | baseline | — |
+| E. coli Protein Localization | Subcellular site prediction (8 classes) | baseline | — |
+| HIV Cleavage Sites (6,590 sequences) | Binary classification | 81% | improved with LSTM |
+
+![](https://img.shields.io/badge/TensorFlow-111111?style=flat-square)
+![](https://img.shields.io/badge/Keras-111111?style=flat-square)
+![](https://img.shields.io/badge/FFNN-111111?style=flat-square)
+![](https://img.shields.io/badge/LSTM-111111?style=flat-square)
+![](https://img.shields.io/badge/Clinical_Data-111111?style=flat-square)
+
+---
+
+### [Bioinformatics-Bootcamp](https://github.com/zeyak/Bioinformatics-Bootcamp)
+
+Teaching materials from the Miuul Data Science Bioinformatics Bootcamp (2023–2025), 2 cohorts, 50+ graduates.
 
 | Module | Topics |
 |---|---|
-| Foundations | Python · Linux · GitHub · Anaconda setup |
-| Workflow Management | Snakemake (tRNA scanning rules, wildcards) |
-| Databases | NCBI Genome · IPR Domains |
-| Sequencing & Assembly | PacBio · Illumina · Nanopore · FASTA/GFF/contig formats |
-| Annotation | BLAST (advanced) · InterProScan · superfamilies · domains |
+| Foundations | Python · Linux · Git · Anaconda |
+| Workflow Management | Snakemake — tRNA scanning, wildcards |
+| Sequencing & Assembly | Nanopore · Illumina · PacBio · FASTA/GFF formats |
+| Annotation | BLAST · InterProScan · IPR domains |
 | Comparative Genomics | OrthoFinder · orthologs/paralogs · heatmaps · UpSet plots |
-| Metabolic Analysis | iPath pathway visualisation |
 | Transposable Elements | RepeatMasker · stained glass visualisation |
-| Data Visualisation | Scatter plots · heatmaps · UpSet plots |
 
-`Python` `Snakemake` `NGS` `BLAST` `Comparative Genomics` `Teaching`
-
----
-
-### 🍬 [G-evoL](https://github.com/zeyak/G-evoL) · [GlyContact Analyses](https://github.com/zeyak/GlyContact_analyses)
-> Glycan evolution & glycan–protein contact network analyses *(in progress)*
-
-Ongoing glycomics work exploring glycan structural evolution and contact network patterns across species.
-
-`Glycomics` `Python` `Network Analysis` `Glycan Evolution`
+![](https://img.shields.io/badge/Python-111111?style=flat-square)
+![](https://img.shields.io/badge/Snakemake-111111?style=flat-square)
+![](https://img.shields.io/badge/NGS-111111?style=flat-square)
+![](https://img.shields.io/badge/50+_graduates-cc0000?style=flat-square)
 
 ---
 
-## Toolkit
+### Between Data & Dreams *(in development)*
 
-**Languages & Workflow**
+An education platform in engineering and life sciences — currently in active development. Covers bioinformatics, AI/ML, and data science for students across Turkey, Sweden, and Japan. 1,000+ students reached through bootcamps, webinars (300+ attendees), and outreach at the Stockholm Natural History Museum and Vetenskapsfestivalen, Gothenburg.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
-![Snakemake](https://img.shields.io/badge/Snakemake-00B4D8?style=flat&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white)
-![Conda](https://img.shields.io/badge/Conda-44A833?style=flat&logo=anaconda&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+![](https://img.shields.io/badge/Education_Platform-111111?style=flat-square)
+![](https://img.shields.io/badge/1k+_students-cc0000?style=flat-square)
+![](https://img.shields.io/badge/In_Development-111111?style=flat-square)
 
-**Sequencing & Data Types**
+---
 
-| Platform | Data | Applications |
-|---|---|---|
-| Oxford Nanopore | Long reads | De novo assembly · direct RNA |
-| Illumina | Short reads | RNA-seq · WGS · polishing |
-| PacBio | HiFi long reads | High-accuracy assembly · isoforms |
-| Clinical records | Tabular / sequences | Diagnostic classification · variant analysis |
-| Protein sequences | FASTA / UniProt | Functional annotation · DIAMOND BLASTp |
-| Glycan structures | Contact networks | Glycan evolution · structural analysis |
+## Pipeline Engineering
+
+The core of my work over 9 years has been designing, building, and maintaining production-grade bioinformatics pipelines — from raw sequencing data to publishable results. Snakemake is my primary orchestration framework; every pipeline I ship is modular, conda-managed, HPC-ready, and version-controlled.
+
+| Capability | Detail |
+|---|---|
+| Orchestration | Snakemake (90%) — rule graphs, wildcards, checkpoints, cluster profiles |
+| Environment Management | Conda / Docker per-rule environments (88%) |
+| HPC / SLURM | Job scheduling, resource allocation, parallel execution (85%) |
+| Version Control | Git — structured commit history, reproducible deploys (92%) |
+| Languages | Python (95%) · Bash / Linux (88%) · R (35%) |
+| AI / ML Stack | TensorFlow · Keras · scikit-learn · GPU inference (82%) |
+| Cloud / DevOps | Early-stage (40%) — actively expanding |
+
+![](https://img.shields.io/badge/Snakemake_90%25-cc0000?style=flat-square)
+![](https://img.shields.io/badge/Python_95%25-111111?style=flat-square)
+![](https://img.shields.io/badge/HPC_/_SLURM_85%25-111111?style=flat-square)
+![](https://img.shields.io/badge/Git_92%25-111111?style=flat-square)
+![](https://img.shields.io/badge/Docker_/_Conda_88%25-111111?style=flat-square)
+
+---
+
+## Omics Exposure
+
+```mermaid
+pie title Active Research Domains
+    "Genomics" : 25
+    "Proteomics" : 23
+    "AI / ML" : 21
+    "Transcriptomics" : 17
+    "Glycomics" : 14
+```
+
+---
+
+## What I Am Curious About Next
+
+The field is moving fast. These are the areas I am actively following, reading, and looking to contribute to next.
+
+| Area | Why it matters |
+|---|---|
+| Spatial transcriptomics | Adding tissue-level coordinates to gene expression — bridging omics and morphology |
+| Single-cell multi-omics | scRNA-seq, scATAC-seq, CITE-seq — resolving cell-type heterogeneity at scale |
+| Multimodal AI integration | Combining genomics, proteomics, and clinical layers in unified ML models |
+| Biological foundation models | DNA/protein language models (ESM, Evo, Nucleotide Transformer) for zero-shot prediction |
+| Graph neural networks on omics | Protein interaction networks, metabolic graphs — structure-aware learning |
+| Long-read single-cell | Nanopore/PacBio scRNA — isoform-resolved, direct RNA at single-cell resolution |
+| Drug target discovery pipelines | Multi-omics integration for target ID and biomarker stratification in pharma |
+
+![](https://img.shields.io/badge/Spatial_Transcriptomics-111111?style=flat-square)
+![](https://img.shields.io/badge/Single--cell_Multi--omics-111111?style=flat-square)
+![](https://img.shields.io/badge/Multimodal_AI-111111?style=flat-square)
+![](https://img.shields.io/badge/Biological_Foundation_Models-111111?style=flat-square)
+![](https://img.shields.io/badge/GNNs_on_Omics-111111?style=flat-square)
 
 ---
 
@@ -177,13 +183,18 @@ Ongoing glycomics work exploring glycan structural evolution and contact network
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=zeyak&show_icons=true&theme=default&hide_border=true&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zeyak&layout=compact&theme=default&hide_border=true" />
+<img height="155" src="https://github-readme-stats.vercel.app/api?username=zeyak&show_icons=true&theme=graywhite&hide_border=true&count_private=true&title_color=cc0000&icon_color=111111&text_color=111111" />
+&nbsp;
+<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zeyak&layout=compact&theme=graywhite&hide_border=true&title_color=cc0000&text_color=111111" />
 
+</div>
+
+<div align="center">
+<sub>Public activity reflects open teaching and research repos. Production pipelines run on institutional HPC clusters and private repositories. Current low-commit periods correspond to full-time development of Between Data & Dreams and prior teaching-intensive roles.</sub>
 </div>
 
 ---
 
 <div align="center">
-<sub>Last updated April 2026</sub>
+<sub>Gothenburg, Sweden · ORCID available on request · Last updated April 2026</sub>
 </div>
