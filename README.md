@@ -48,27 +48,22 @@ Glycomics         ▓▓▓▓▓░░░░░
 
 <div align="center">
 
-[![GenoDiplo](https://github-readme-stats.vercel.app/api/pin/?username=zeyak&repo=GenoDiplo&theme=graywhite&hide_border=true&title_color=333333&text_color=555555&icon_color=333333&description_lines_count=2)](https://github.com/zeyak/GenoDiplo)
+[![GenoDiplo](https://github-readme-stats.vercel.app/api/pin/?username=zeyak&repo=GenoDiplo&theme=graywhite&hide_border=true&title_color=333333&text_color=555555&icon_color=333333)](https://github.com/zeyak/GenoDiplo)
 &nbsp;
-[![Deep-Bio](https://github-readme-stats.vercel.app/api/pin/?username=zeyak&repo=Deep-Bio&theme=graywhite&hide_border=true&title_color=333333&text_color=555555&icon_color=333333&description_lines_count=2)](https://github.com/zeyak/Deep-Bio)
+[![Deep-Bio](https://github-readme-stats.vercel.app/api/pin/?username=zeyak&repo=Deep-Bio&theme=graywhite&hide_border=true&title_color=333333&text_color=555555&icon_color=333333)](https://github.com/zeyak/Deep-Bio)
 
-[![Bioinformatics-Bootcamp](https://github-readme-stats.vercel.app/api/pin/?username=zeyak&repo=Bioinformatics-Bootcamp&theme=graywhite&hide_border=true&title_color=333333&text_color=555555&icon_color=333333&description_lines_count=2)](https://github.com/zeyak/Bioinformatics-Bootcamp)
+[![Bioinformatics-Bootcamp](https://github-readme-stats.vercel.app/api/pin/?username=zeyak&repo=Bioinformatics-Bootcamp&theme=graywhite&hide_border=true&title_color=333333&text_color=555555&icon_color=333333)](https://github.com/zeyak/Bioinformatics-Bootcamp)
 
 </div>
 
 &nbsp;
 
-**[GenoDiplo](https://github.com/zeyak/GenoDiplo)** &nbsp;·&nbsp; *Scientific Data 2024*
-End-to-end Snakemake pipeline for diplomonad genome assembly & annotation — Nanopore assembly → structural & functional annotation → repeat masking → comparative genomics. Designed for reproducibility; independently reproduced on a second genome.
-
-**CompareDiplo** &nbsp;·&nbsp; *private · manuscript in preparation*
-Multi-species comparative genomics across diplomonad lineages — protein family clustering (OrthoFinder), domain mapping (InterPro · PFAM · KEGG), evolutionary divergence between free-living and parasitic species.
-
-**[Deep-Bio](https://github.com/zeyak/Deep-Bio)** &nbsp;·&nbsp; *M.Sc. Thesis 2018*
-Deep learning on 4 biological datasets — anuran call recognition, thyroid diagnostics, *E. coli* protein localization, HIV cleavage site prediction. FFNN & LSTM architectures; accuracy 78% → 95%.
-
-**[Bioinformatics-Bootcamp](https://github.com/zeyak/Bioinformatics-Bootcamp)** &nbsp;·&nbsp; *Miuul · 2023–2025 · 50+ graduates*
-Teaching materials across two cohorts — Python, Linux, Snakemake, NGS, comparative genomics, functional annotation, and data visualisation.
+| Project | What it does | Stack | Output |
+|---|---|---|---|
+| [GenoDiplo](https://github.com/zeyak/GenoDiplo) | End-to-end genome assembly & annotation pipeline · Nanopore → structural annotation → functional annotation → repeat masking · reproduced on 2 independent genomes | ![Snakemake](https://img.shields.io/badge/Snakemake-00B4D8?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) | [Scientific Data 2024](https://doi.org/10.1038/s41597-024-03786-9) |
+| CompareDiplo | Multi-species comparative genomics · protein family clustering · domain mapping · evolutionary divergence across free-living & parasitic diplomonads | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![OrthoFinder](https://img.shields.io/badge/OrthoFinder-555555?style=flat-square) ![KEGG](https://img.shields.io/badge/KEGG-E60012?style=flat-square) ![InterPro](https://img.shields.io/badge/InterPro-005B9A?style=flat-square) | manuscript in preparation |
+| [Deep-Bio](https://github.com/zeyak/Deep-Bio) | Deep learning on 4 biological datasets — anuran acoustics · thyroid diagnostics · protein localization · HIV cleavage sites · FFNN & LSTM · 78%→95% accuracy | ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white) ![GPU](https://img.shields.io/badge/GPU-76B900?style=flat-square&logo=nvidia&logoColor=white) | M.Sc. Thesis 2018 |
+| [Bioinformatics-Bootcamp](https://github.com/zeyak/Bioinformatics-Bootcamp) | Full curriculum: Python · NGS · Snakemake workflows · comparative genomics · functional annotation · visualisation | ![Snakemake](https://img.shields.io/badge/Snakemake-00B4D8?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) | 50+ graduates |
 
 ---
 
@@ -104,6 +99,10 @@ A gamified bioinformatics learning platform built around the life stages of *Hex
 <br>Xu · Jiménez-González · **Akdeniz** et al.
 
 ---
+
+<div align="center">
+<sub>Public activity reflects open teaching and research repos. Production work runs on institutional HPC and private repositories.</sub>
+</div>
 
 <div align="center">
 <sub>Gothenburg, Sweden &nbsp;·&nbsp; Last updated April 2026</sub>
