@@ -46,20 +46,6 @@ Glycomics         ▓▓▓▓▓░░░░░
 
 ## Projects
 
-<div align="center">
-
-[![GenoDiplo](https://github-readme-stats.vercel.app/api/pin/?username=zeyak&repo=GenoDiplo&theme=graywhite&hide_border=true&title_color=333333&text_color=555555&icon_color=333333)](https://github.com/zeyak/GenoDiplo)
-&nbsp;
-[![CompareDiplo](https://github-readme-stats.vercel.app/api/pin/?username=zeyak&repo=CompareDiplo&theme=graywhite&hide_border=true&title_color=333333&text_color=555555&icon_color=333333)](https://github.com/zeyak/CompareDiplo)
-
-[![Deep-Bio](https://github-readme-stats.vercel.app/api/pin/?username=zeyak&repo=Deep-Bio&theme=graywhite&hide_border=true&title_color=333333&text_color=555555&icon_color=333333)](https://github.com/zeyak/Deep-Bio)
-&nbsp;
-[![Bioinformatics-Bootcamp](https://github-readme-stats.vercel.app/api/pin/?username=zeyak&repo=Bioinformatics-Bootcamp&theme=graywhite&hide_border=true&title_color=333333&text_color=555555&icon_color=333333)](https://github.com/zeyak/Bioinformatics-Bootcamp)
-
-</div>
-
-&nbsp;
-
 | Project | What it does | Stack | Output |
 |---|---|---|---|
 | [GenoDiplo](https://github.com/zeyak/GenoDiplo) | End-to-end genome assembly & annotation pipeline · Nanopore → structural annotation → functional annotation → repeat masking · reproduced on 2 independent genomes | ![Snakemake](https://img.shields.io/badge/Snakemake-00B4D8?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) | [Scientific Data 2024](https://doi.org/10.1038/s41597-024-03786-9) |
